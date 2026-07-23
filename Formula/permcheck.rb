@@ -1,7 +1,7 @@
 class Permcheck < Formula
   desc "PreToolUse permission engine for Claude Code"
   homepage "https://github.com/saleem-mirza/marketplace"
-  version "0.1.11"
+  version "0.1.12"
   license "Apache-2.0"
 
   # Binaries are published as release assets on this public tap repo
@@ -9,11 +9,11 @@ class Permcheck < Formula
   on_macos do
     on_arm do
       url "https://github.com/saleem-mirza/homebrew-tap/releases/download/v#{version}/permcheck-darwin-arm64"
-      sha256 "05e32a2909467be345e1b85c71d89eb8e7cb1e34c1885a794934f7973e033870"
+      sha256 "87a1708232da5d96de401fdda3e1a7712b30648b223be917507565c4f1f6f4ba"
     end
     on_intel do
       url "https://github.com/saleem-mirza/homebrew-tap/releases/download/v#{version}/permcheck-darwin-x64"
-      sha256 "c25a6489dc35d92259b6e735323c98b5337bbb30e1851b769d0117c50b868080"
+      sha256 "2de03f12c9c2c3284330d17d9c8014a98180c77925eb9e761116c62e985cb032"
     end
   end
 
