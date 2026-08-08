@@ -9,11 +9,11 @@ class Permcheck < Formula
   on_macos do
     on_arm do
       url "https://github.com/saleem-mirza/homebrew-tap/releases/download/v#{version}/permcheck-darwin-arm64"
-      sha256 "a2ceb754b1e150329719430ee67ba3a3adf2d319a6303b17ae95651b18bfcf54"
+      sha256 "29c263f32074e37b139dcc010f850e770b84bcb0cea0e000bfcd4f69161d9881"
     end
     on_intel do
       url "https://github.com/saleem-mirza/homebrew-tap/releases/download/v#{version}/permcheck-darwin-x64"
-      sha256 "4fdffdff66622d98943e7e008c35d50302fccc5000f515c3f2cf2601cef42961"
+      sha256 "161297bf2372459beacfba5c84e8a428faf69ec0af374d21f01247b3c9505e94"
     end
   end
 
